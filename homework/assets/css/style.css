@@ -1,0 +1,85 @@
+
+.click{
+    width: 500px;
+    margin-left: 92px;
+}
+
+
+
+.modals{
+    background-color: white;
+    margin-left: 430px;
+    width: 430px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 11px;
+    transition:all 1s; 
+    z-index: 3 !important;
+    
+    
+}
+.modals .title h4{
+    margin-top: 27px;
+    margin-left: 10px;
+}
+.modals .text p{
+    margin-left: 7px;
+}
+
+.title{
+    display: flex;
+    width: 400px;
+    height: 60px;
+   
+   
+}
+.title i{
+    font-size: 25px;
+    margin-left: 254px;
+    color: gray;
+
+}
+.text{
+    margin-top: 14px;
+    width: 400px;
+   
+   
+}
+.buttons{
+    margin-top: 42px;
+    width: 400px;
+
+    margin-left: 210px;
+}
+.buttons .left{
+    margin-right: 10px;
+}
+.buttons .right{
+    width: 121px;
+ 
+ 
+}
+
+
+hr{
+    width: 403px;
+}
+.active{
+    transform: translateY(-330px); 
+}
+
+
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer; 
+  }
+
